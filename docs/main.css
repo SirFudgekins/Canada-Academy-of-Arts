@@ -2,15 +2,25 @@
 /* CSS Document */
 .navigation {
 	background-color: #818181;
-	padding: 15px 15px 15px 15px;
 }
 
-.navigation a {
+.navigation ul {
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+
+.navigation li {
+	display:inline-block;
+}
+
+.navigation li a {
 	color: white;
 	text-align: center;
-	padding: 15px 15px 15px 15px;
+	padding: 15px;
 	font-size: 20px;
 	text-decoration: none;
+	display: block;
 }
 
 .navigation a:hover {

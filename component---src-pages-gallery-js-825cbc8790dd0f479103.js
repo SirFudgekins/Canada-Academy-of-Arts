@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{yp8A:function(e,t,a){"use strict";a.r(t);var l=a("q1tI"),n=a.n(l),r=a("Wbzz"),o=a("Bl7J"),c=a("vrFN");t.default=function(){return n.a.createElement(o.a,null,n.a.createElement(c.a,{title:"Gallery"}),n.a.createElement("h1",null,"This is where the gallery will be."),n.a.createElement("p",null,n.a.createElement(r.Link,{to:"/"},"Go back to the homepage")),n.a.createElement("p",null,n.a.createElement(r.Link,{to:"/about/"},"Go to About")))}}}]);
+//# sourceMappingURL=component---src-pages-gallery-js-825cbc8790dd0f479103.js.map

@@ -23,4 +23,9 @@
 
 .small-link {
     margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.small-link > a:hover {
+    color: #8c8888;
 }

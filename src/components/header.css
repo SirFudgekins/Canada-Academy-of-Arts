@@ -2,10 +2,6 @@
     margin-bottom: 1.45rem;
 }
 
-.theme {
-    font-family: "Roboto", sans-serif;
-}
-
 .nav-bar {
     display: flex;
     flex-direction: row;

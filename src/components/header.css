@@ -1,0 +1,26 @@
+.header {
+    margin-bottom: 1.45rem;
+}
+
+.theme {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    max-width: 960;
+    padding: 1.45rem 1.0875rem;
+}
+
+.nav-option {
+    margin: 0 1rem;
+}
+
+.nav-option > a {
+    text-decoration: none;
+}
+
+.small-link {
+    margin-top: 0.5rem;
+}

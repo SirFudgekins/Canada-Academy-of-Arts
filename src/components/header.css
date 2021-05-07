@@ -1,11 +1,11 @@
 .header {
-    margin-bottom: 1.45rem;
+    margin: 0.1rem;
+    width: 100vw;
 }
 
 .nav-bar {
     display: flex;
     flex-direction: row;
-    max-width: 960;
     padding: 1.45rem 1.0875rem;
 }
 
@@ -20,6 +20,22 @@
 .small-link {
     margin-top: 0.5rem;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar > h2 {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .nav-bar > h2 {
+        font-size: 7vw;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
 }
 
 .small-link > a:hover {

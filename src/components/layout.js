@@ -44,6 +44,7 @@ const Layout = ({ children }) => {
     min-height: 100vh;
     min-width: 100vw;
     background-attachment: fixed;
+    position: fixed;
 
     & a {
       color: ${props => (props.theme.name === "dark" ? "white" : "inherit")};

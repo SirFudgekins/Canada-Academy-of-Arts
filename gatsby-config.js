@@ -52,18 +52,6 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-no-javascript',
-    {
-      resolve: 'gatsby-plugin-no-javascript-utils',
-      options: {
-        noSourcemaps: true,
-        removeGeneratorTag: true,
-        removeReactHelmetAttrs: true,
-        noInlineStyles: false,
-        removeGatsbyAnnouncer: true,
-        removePreloadLinks: false,
-      },
-    },
   ],
   pathPrefix: "/Canada-Academy-of-Arts",
 };

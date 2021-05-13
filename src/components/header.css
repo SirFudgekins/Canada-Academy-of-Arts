@@ -40,7 +40,7 @@
     }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 410px) {
     .nav-bar > h2 {
         font-size: 7vw;
     }

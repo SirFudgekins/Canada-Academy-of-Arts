@@ -31,6 +31,39 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     `gatsby-plugin-emotion`,
+    {
+      resolve: 'gatsby-source-mongodb',
+      options: {
+        dbName: 'gallery',
+        collection: 'artworks',
+        server: {
+            address: 'canada-academy-of-arts-shard-00-00.ksnji.mongodb.net',
+            port: 27017
+        },
+        auth: {
+            user: 'SirFudgekins',
+            password: 'qpsyFYT3OAeblqD0'
+        },
+        extraParams: {
+            replicaSet: 'atlas-rq5q8y-shard-0',
+            ssl: true,
+            authSource: 'admin',
+            retryWrites: true
+        }
+      }
+    },
+    'gatsby-plugin-no-javascript',
+    {
+      resolve: 'gatsby-plugin-no-javascript-utils',
+      options: {
+        noSourcemaps: true,
+        removeGeneratorTag: true,
+        removeReactHelmetAttrs: true,
+        noInlineStyles: false,
+        removeGatsbyAnnouncer: true,
+        removePreloadLinks: false,
+      },
+    },
   ],
   pathPrefix: "/Canada-Academy-of-Arts",
 };

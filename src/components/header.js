@@ -30,6 +30,7 @@ const Header = ({ siteTitle, theme }) => (
         uncheckedIcon={<span role="img" aria-label="sun" className="emoji">☀️</span>}
         boxShadow="0 0 2px 3px #B38CD9"
         activeBoxShadow="0 0 2px 3px #dfb3e6"
+        aria-label="light/dark mode switch"
       />
     </div>
   </header>

@@ -41,10 +41,10 @@ const Layout = ({ children }) => {
     color: ${props => themes[props.theme.name].foreground};
     background-color: ${props => themes[props.theme.name].background};
     transition: all 0.4s ease;
+    width: 100%;
     min-height: 100vh;
-    min-width: 100vw;
     background-attachment: fixed;
-    position: fixed;
+    padding: 0.5rem;
 
     & a {
       color: ${props => (props.theme.name === "dark" ? "white" : "inherit")};

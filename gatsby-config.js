@@ -1,4 +1,5 @@
 module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   siteMetadata: {
     title: `Canada Academy of Arts`,
     description: `Official website of Canada Academy of Arts Inc.`,

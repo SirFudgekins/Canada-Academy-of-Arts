@@ -1,11 +1,14 @@
 .header {
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
     margin-bottom: 1.45rem;
+    width: 100vw;
 }
 
 .nav-bar {
     display: flex;
     flex-direction: row;
-    max-width: 960;
     padding: 1.45rem 1.0875rem;
 }
 
@@ -24,4 +27,25 @@
 
 .small-link > a:hover {
     color: #8c8888;
+}
+
+.emoji {
+    font-size: 15px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-bar > h2 {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .nav-bar > h2 {
+        font-size: 7vw;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
 }

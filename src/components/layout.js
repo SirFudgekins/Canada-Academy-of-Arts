@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
     },
     dark: {
       foreground: "#ffffff",
-      background: "#222222",
+      background: "black",
     },
   };
 
@@ -41,7 +41,10 @@ const Layout = ({ children }) => {
     color: ${props => themes[props.theme.name].foreground};
     background-color: ${props => themes[props.theme.name].background};
     transition: all 0.4s ease;
+    width: 100%;
     min-height: 100vh;
+    background-attachment: fixed;
+    padding: 0.5rem;
 
     & a {
       color: ${props => (props.theme.name === "dark" ? "white" : "inherit")};

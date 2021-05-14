@@ -26,10 +26,11 @@ const Header = ({ siteTitle, theme }) => (
         checked={theme.name === "dark"}
         onColor="#8c8888"
         offColor="#8c8888"
-        checkedIcon={<span role="img" aria-label="moon">🌙</span>}
-        uncheckedIcon={<span role="img" aria-label="sun">☀️</span>}
+        checkedIcon={<span role="img" aria-label="moon" className="emoji">🌙</span>}
+        uncheckedIcon={<span role="img" aria-label="sun" className="emoji">☀️</span>}
         boxShadow="0 0 2px 3px #B38CD9"
         activeBoxShadow="0 0 2px 3px #dfb3e6"
+        aria-label="light/dark mode switch"
       />
     </div>
   </header>

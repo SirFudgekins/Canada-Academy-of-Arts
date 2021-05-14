@@ -1,0 +1,25 @@
+.jumbo {
+    height: 20rem;
+    transition: all 0.5s linear;
+    margin: 0;
+    color: black;
+}
+
+.jumbo:hover {
+    opacity: 0.7;
+    transition: all 0.7s linear;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.about-jumbo {
+    background-image: url("../images/map-background.png");
+}
+
+.gallery-jumbo {
+    background-image: url("../images/gallery-background.jpg");
+    background-position: 40% 80%;
+    background-size: cover;
+}

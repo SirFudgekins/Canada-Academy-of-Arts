@@ -7,8 +7,6 @@ import SEO from "../components/seo"
 const About = () => (
     <Layout>
         <SEO title="About" />
-        <h1>This is where information about the school will be found.</h1>
-        <Link to="/">Go back to the homepage</Link>
     </Layout>
 )
 

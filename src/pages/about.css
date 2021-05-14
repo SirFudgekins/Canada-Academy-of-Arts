@@ -1,0 +1,39 @@
+.google-map {
+    border: 0;
+    width: 40vw;
+    height: 30vw;
+}
+
+.location-box {
+    display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+    .location-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location-details {
+        margin-bottom: 1rem;
+    }
+
+    .google-map {
+        border: 0;
+        width: 70vw;
+        height: 50vw;        
+    }
+}
+
+.location-details {
+    line-height: 1.5rem;
+    width: 50vw;
+}
+
+.location-map {
+    width: 50vw;
+}
+
+.location-header {
+    margin-bottom: 3rem;
+}
